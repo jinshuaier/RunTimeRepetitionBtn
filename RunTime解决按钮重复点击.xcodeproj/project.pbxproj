@@ -15,6 +15,7 @@
 		B925D5BA1F6F98FC00A3948A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B925D5B81F6F98FC00A3948A /* LaunchScreen.storyboard */; };
 		B925D5C51F6F98FC00A3948A /* RunTime________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D5C41F6F98FC00A3948A /* RunTime________Tests.m */; };
 		B925D5D01F6F98FD00A3948A /* RunTime________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D5CF1F6F98FD00A3948A /* RunTime________UITests.m */; };
+		B925D5E01F6F991F00A3948A /* UIControl+recurClick.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D5DF1F6F991F00A3948A /* UIControl+recurClick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B925D5CB1F6F98FC00A3948A /* RunTime解决按钮重复点击UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunTime解决按钮重复点击UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B925D5CF1F6F98FD00A3948A /* RunTime________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RunTime________UITests.m"; sourceTree = "<group>"; };
 		B925D5D11F6F98FD00A3948A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B925D5DE1F6F991A00A3948A /* UIControl+recurClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+recurClick.h"; sourceTree = "<group>"; };
+		B925D5DF1F6F991F00A3948A /* UIControl+recurClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+recurClick.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		B925D5A91F6F98FC00A3948A /* RunTime解决按钮重复点击 */ = {
 			isa = PBXGroup;
 			children = (
+				B925D5DD1F6F991300A3948A /* view */,
 				B925D5AD1F6F98FC00A3948A /* AppDelegate.h */,
 				B925D5AE1F6F98FC00A3948A /* AppDelegate.m */,
 				B925D5B01F6F98FC00A3948A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				B925D5D11F6F98FD00A3948A /* Info.plist */,
 			);
 			path = "RunTime解决按钮重复点击UITests";
+			sourceTree = "<group>";
+		};
+		B925D5DD1F6F991300A3948A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B925D5DE1F6F991A00A3948A /* UIControl+recurClick.h */,
+				B925D5DF1F6F991F00A3948A /* UIControl+recurClick.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				B925D5B21F6F98FC00A3948A /* ViewController.m in Sources */,
 				B925D5AF1F6F98FC00A3948A /* AppDelegate.m in Sources */,
+				B925D5E01F6F991F00A3948A /* UIControl+recurClick.m in Sources */,
 				B925D5AC1F6F98FC00A3948A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
